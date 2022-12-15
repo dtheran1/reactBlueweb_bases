@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Counter from './components/Counter';
+import Lista from './components/Lista';
+import Formulario from './components/Formulario';
+import FormHook from './components/FormHook';
+import EjemploUno from './components/EjemploUno';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1> Hola mundo con react </h1>
+      <Counter />
+      <Lista />
+      <Formulario />
+      <FormHook />
+      <EjemploUno />
     </div>
   );
 }
